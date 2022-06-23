@@ -1,5 +1,5 @@
 import React from 'react'
-import {Paper,Typography,Grid} from "@mui/material"
+import {Grid} from "@mui/material"
 import VideoItem from './VideoItem'
 const VideoList = ({videos,onVideoSelect}) => {
     console.log(videos)
